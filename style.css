@@ -20,7 +20,7 @@ body {
     width: auto;
 }
 
-nav {
+.nav {
     display: flex;
     justify-content: space-between;
     padding: 1rem 0.5rem;
@@ -28,60 +28,57 @@ nav {
     color:#185232;
 }
 
-nav h2 {
+.nav h2 {
     padding: 1.5rem 1.5rem;
 }
   
-nav ul {
+.nav ul {
     display: flex;
     list-style: none;
     padding: 1rem;
 }
   
-nav li {
+.nav li {
     padding: 1rem;
     font-size: 1.4rem;
 }
   
-nav a {
+.nav a {
     text-decoration: none;
     color: #185232;
 }
 
-nav a:hover {
-    color: #9b9a9a;
+.nav a:hover {
+    color: #3c9b3c;
 }
 
 img {
-    width: 100%;
+    width: auto;
     border-radius: 12px;
     height: 214px;
     object-fit: cover;
 }
-
-.card {
-    /* Change background color */
-    background-color: white;
-  
-    /* Add border */
-    border: 1px solid #185232;
-  
-    /* Add space between the border and the content */
-    padding: 8px;
-  
-    border-radius: 12px;
-    
-  }
-
   
 #container {
     display: flex;
-    align-items: stretch;
+    align-items: center;
+    justify-content: center;
     /* Center the container in middle on horizontal axis */
-    margin: 0 auto;
+    /* margin: 0 auto; */
   
     /* Add empty space above the container (20% of the view height) */
     margin-top: 20vh;
+}
+
+.card {
+  display: flex;
+  /* Change background color */
+  background-color: white; 
+  /* Add border */
+  border: 1px solid #185232; 
+  /* Add space between the border and the content */
+  padding: 50px;
+  border-radius: 12px;  
 }
 
 /* Style div elements that have class equal to tag */
@@ -101,13 +98,6 @@ img {
     font-weight: 600;
     color: #185232;
     margin-top: 16px;
-  }
-  
-  /* Style p element */
-  p {
-    font-size: 14px;
-    color: #7f8c9b;
-    line-height: 150%;
   }
   
   /* Style button element */
