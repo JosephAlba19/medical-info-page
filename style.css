@@ -63,6 +63,11 @@ body {
     margin: 30vh;
 }
 
+.card {
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
 .card a {
   flex-grow: 1 1 0px;
   background-color: white;
@@ -84,6 +89,36 @@ body {
 .card__details {
     padding: 16px 8px 8px 8px;
 }
+
+/* Medical Page */
+
+.med-card {
+  border-radius: 12px;
+  box-shadow: 5px 5px 5px #ccc;
+}
+
+.med-card a {
+  flex-grow: 1 1 0px;
+  background-color: white;
+  text-decoration: none;
+  display: flex;
+  border: 1px solid #185232;
+  padding: 50px;
+  border-radius: 12px;
+}
+  
+  /* Style div elements that have class equal to name */
+.name {
+    font-size: 24px;
+    font-weight: 600;
+    color: #185232;
+    margin: 20px;
+}
+  
+.card__details {
+    padding: 16px 8px 8px 8px;
+}
+
 
   /* 
   Extra small devices (phones, 600px and down) 
