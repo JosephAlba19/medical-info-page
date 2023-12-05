@@ -78,7 +78,6 @@ body {
   border-radius: 12px;
 }
   
-  /* Style div elements that have class equal to name */
 .name {
     font-size: 24px;
     font-weight: 600;
@@ -86,37 +85,60 @@ body {
     margin: 20px;
 }
   
-.card__details {
+.card-details {
     padding: 16px 8px 8px 8px;
 }
 
 /* Medical Page */
 
-.med-card {
-  border-radius: 12px;
-  box-shadow: 5px 5px 5px #ccc;
+/* #med-content {
+  padding: 30px;
+} */
+  
+#med-container {
+  display: flex;
+  justify-content: center;
 }
 
-.med-card a {
-  flex-grow: 1 1 0px;
-  background-color: white;
-  text-decoration: none;
-  display: flex;
+.med-card {
+  background:#fff;
+  border-radius: 15px;
   border: 1px solid #185232;
-  padding: 50px;
-  border-radius: 12px;
+  box-shadow: 5px 5px 5px #ccc;
+  height: 400px;
+  width: 280px;
+  margin: 10px;
 }
-  
-  /* Style div elements that have class equal to name */
-.name {
-    font-size: 24px;
-    font-weight: 600;
-    color: #185232;
-    margin: 20px;
+
+.med-img {
+  height: 170px;
+  margin-bottom: 15px;
+  background-size: cover;
+  border-radius: 15px 15px 0 0;
 }
-  
-.card__details {
-    padding: 16px 8px 8px 8px;
+
+.med-1 {
+  background-image: url('image/logo01.png');
+}
+
+.med-2 {
+  background-image: url('image/logo01.png');
+}
+
+.med-3 {
+  background-image: url('image/logo01.png');
+}
+
+.med-4 {
+  background-image: url('image/logo01.png');
+}
+
+.med-5 {
+  background-image: url('image/logo01.png');
+}
+
+.med-6 {
+  background-image: url('image/logo01.png');
 }
 
 
